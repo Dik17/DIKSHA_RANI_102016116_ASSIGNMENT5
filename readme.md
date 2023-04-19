@@ -28,7 +28,7 @@ Plot a convergence graph for this sample, showing the change in SVM objective va
 
 ## Result
 
-Best Accuracy for wine quality dataset is 0.85
+Best Accuracy for wine quality dataset is 0.93
 kernel: 'rbf'
-epsilon: 1
-neu: 0.9
+epsilon: 0.43
+neu: 0.12
