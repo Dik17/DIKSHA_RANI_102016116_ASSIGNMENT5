@@ -17,11 +17,10 @@ from sklearn.metrics import accuracy_score
 # In[2]:
 
 
-url = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv"
-df = pd.read_csv(url, delimiter=";")
+df = pd.read_csv('C:\\Users\\Diksha\\Downloads\\Crowdsourced Mapping\\training.csv)
 
-X=df.iloc[:,:-1]
-y=df.iloc[:,-1]
+X = data.drop(['class'], axis=1)
+y = data["class"]
 
 # In[3]:
 
