@@ -17,10 +17,11 @@ from sklearn.metrics import accuracy_score
 # In[2]:
 
 
-iris_data = load_iris()
-X = iris_data.data
-y = iris_data.target
+url = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-white.csv"
+df = pd.read_csv(url, delimiter=";")
 
+X=df.iloc[:,:-1]
+y=df.iloc[:,-1]
 
 # In[3]:
 
