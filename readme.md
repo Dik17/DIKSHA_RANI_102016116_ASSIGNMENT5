@@ -1,7 +1,7 @@
 # Steps required
 ## Step 1: Data Preparation
 
-Download the iris dataset from the UCI Machine Learning Repository.
+Download the wine dataset from the UCI Machine Learning Repository.
 
 Load the dataset into your Python environment using a library like pandas.
 
