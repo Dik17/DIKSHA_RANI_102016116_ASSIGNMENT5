@@ -26,3 +26,7 @@ Select the sample that achieved the highest accuracy on the testing set.
 Plot a convergence graph for this sample, showing the change in SVM objective value (or loss) over the iterations of the optimization process. This can help visualize the convergence behavior of the SVM model and assess its performance.
 
 
+## Result
+
+Best Accuracy for wine quality dataset is 0.93
+
